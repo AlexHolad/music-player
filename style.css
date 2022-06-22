@@ -8,6 +8,7 @@ html {
 
 body {
   margin: 0;
+  padding: 0;
   min-height: 100vh;
   background: #c9ced3;
   display: flex;
@@ -92,10 +93,13 @@ h3 {
   font-size: 30px;
   color: rgb(129, 129, 129);
   margin-right: 30px;
-
+  cursor: pointer;
+  user-select: none;
 }
 
-
+.fas:hover {
+  filter: brightness(80%);
+}
 
 .main-button {
   font-size: 40px;
@@ -110,7 +114,8 @@ h3 {
   }
 
   .img-container {
-    left: 29px;
+    left: 10%;
+    max-width: 80%;
   }
 
   h2 {
